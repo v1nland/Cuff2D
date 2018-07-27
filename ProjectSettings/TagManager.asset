@@ -50,3 +50,6 @@ TagManager:
   - name: PlayerArmour
     uniqueID: 840654325
     locked: 0
+  - name: Front
+    uniqueID: 4290381503
+    locked: 0

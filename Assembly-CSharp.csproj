@@ -64,13 +64,8 @@
     <Compile Include="Assets\Scripts\UserCharacterController.cs" />
     <None Include="Assets\UI\Ranks\License.txt" />
     <None Include="Assets\Characters\License.txt" />
-    <None Include="Assets\Enviroment\Standard Map\License.txt" />
     <None Include="Assets\Characters\Character Sprites\spritesheetInfo.txt" />
-    <None Include="Assets\Enviroment\Medieval Map\Spritesheet\medievalRTS_spritesheet@2.xml" />
-    <None Include="Assets\Enviroment\Standard Map\Spritesheet\mapPack_spritesheet.xml" />
     <None Include="Assets\Enviroment\Medieval Map\Tilesheet\Tilesheet info.txt" />
-    <None Include="Assets\Enviroment\Medieval Map\License.txt" />
-    <None Include="Assets\Enviroment\Medieval Map\Spritesheet\medievalRTS_spritesheet.xml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/martinsaavedran/Cool stuff/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
