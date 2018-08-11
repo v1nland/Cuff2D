@@ -61,9 +61,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Equipment.cs" />
+    <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\InventoryEquipment.cs" />
+    <Compile Include="Assets\Scripts\InventorySlot.cs" />
+    <Compile Include="Assets\Scripts\InventoryUI.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\UserCharacterController.cs" />
     <None Include="Assets\UI\Ranks\License.txt" />
-    <None Include="Assets\Characters\License.txt" />
     <None Include="Assets\Characters\Character Sprites\spritesheetInfo.txt" />
     <None Include="Assets\Enviroment\Medieval Map\Tilesheet\Tilesheet info.txt" />
     <Reference Include="UnityEditor.StandardEvents">
