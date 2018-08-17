@@ -70,12 +70,14 @@
     <Compile Include="Assets\Scripts\Inventory\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Items\ItemPickup.cs" />
+    <Compile Include="Assets\Scripts\Motor\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Motor\UserCharacterController.cs" />
     <Compile Include="Assets\Scripts\Stats\CharacterStats.cs" />
     <Compile Include="Assets\Scripts\Stats\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Stats\Stat.cs" />
     <None Include="Assets\Characters\spritesheetInfo.txt" />
-    <None Include="Assets\Enviroment\Tilesheet info.txt" />
+    <None Include="Assets\Enviroment\Roguelike Map\spritesheetInfo.txt" />
+    <None Include="Assets\Enviroment\Medieval Map\Tilesheet info.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/martinsaavedran/Cool stuff/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

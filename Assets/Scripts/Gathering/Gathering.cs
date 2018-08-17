@@ -23,14 +23,14 @@ public class Gathering : MonoBehaviour {
     }
 
     void OnCollisionStay2D(Collision2D other){
-        Debug.Log("<color=blue>[GATHERING] Click para cosechar: " + other.collider.name + "</color>");
-
         Tilemap tilemap = other.gameObject.GetComponent<Tilemap>();
         HarvestableItem harvestableItem = other.gameObject.GetComponent<HarvestableItem>();
 
         Vector3 hitPosition = Vector3.zero;
 
         if(harvestableItem != null && tilemap != null){
+            Debug.Log("<color=blue>[GATHERING] Click para cosechar: " + other.collider.name + "</color>");
+
             if (Input.GetMouseButton(0) && actualCooldown <= 0){
                 bool wasObtained = harvestableItem.Harvest( harvestSkill.getValue() );
 
