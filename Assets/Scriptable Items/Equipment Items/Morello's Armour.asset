@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: Morello's Armour
   m_EditorClassIdentifier: 
   name: Morello's Armour
-  icon: {fileID: 21300762, guid: c7d931aaa007a449997eaab633b458cb, type: 3}
+  icon: {fileID: 21300392, guid: c7d931aaa007a449997eaab633b458cb, type: 3}
   isDefault: 0
   equipSlot: 1
-  equipSprite: {fileID: 21300762, guid: c7d931aaa007a449997eaab633b458cb, type: 3}
+  equipSprite: {fileID: 21300392, guid: c7d931aaa007a449997eaab633b458cb, type: 3}
   armorModifier: 3
   damageModifier: 8
   harvestModifier: 10

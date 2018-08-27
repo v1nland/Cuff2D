@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: Enchanted Armour
   m_EditorClassIdentifier: 
   name: Enchanted Armour
-  icon: {fileID: 21300248, guid: c7d931aaa007a449997eaab633b458cb, type: 3}
+  icon: {fileID: 21300290, guid: c7d931aaa007a449997eaab633b458cb, type: 3}
   isDefault: 0
   equipSlot: 1
-  equipSprite: {fileID: 21300248, guid: c7d931aaa007a449997eaab633b458cb, type: 3}
+  equipSprite: {fileID: 21300290, guid: c7d931aaa007a449997eaab633b458cb, type: 3}
   armorModifier: 10
   damageModifier: 2
-  gatheringModifier: 0
+  harvestModifier: 0

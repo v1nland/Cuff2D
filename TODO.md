@@ -1,19 +1,40 @@
-### TO-DO List ###
+# Cuff-2D
+Simple 2D mobile game, using Unity 3D
 
-# Make movement system - Done
+------
 
-# Make inventory system - Done
+## Changelog ##
 
-# Make equipment system - Done
+#### v0.0.1 ####
 
-# Make stats system - Done
+* Bugfix: Now you can't harvest 2 items simultaneously
+* Motor: Now you can instantiate prefabs with a custom brush
 
-# Make jobs/gathering system - Done
+------
 
-# Make crafting system
+## TO-DO List ##
 
-# Make leveling system using stats
+#### Motor ####
 
-# Make NPC system
+- [x] Make movement system
+- [x] Make inventory system
+- [x] Make equipment system
+- [x] Make stats system
+- [ ] Make resources system
+    - [ ] Jobs
+    - [ ] Crafting
+    - [x] Gathering
+- [ ] Make leveling system using stats
 
-# Make combat system
+#### Player experience ####
+
+- [ ] Make NPC system
+- [ ] Make combat system
+
+#### Design ####
+
+- [ ] Initial map design
+    - [ ] Make the main village
+    - [ ] Add houses
+    - [ ] Add lakes
+- [ ] Get new 2D Sprites, replace the actual ones with animated ones (includes armor items)

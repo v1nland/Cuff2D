@@ -23,12 +23,9 @@ public class Gathering : MonoBehaviour {
     }
 
     void OnCollisionStay2D(Collision2D other){
-        Tilemap tilemap = other.gameObject.GetComponent<Tilemap>();
         HarvestableItem harvestableItem = other.gameObject.GetComponent<HarvestableItem>();
 
-        Vector3 hitPosition = Vector3.zero;
-
-        if(harvestableItem != null && tilemap != null){
+        if(harvestableItem != null){
             Debug.Log("<color=blue>[GATHERING] Click para cosechar: " + other.collider.name + "</color>");
 
             if (Input.GetMouseButton(0) && actualCooldown <= 0){
@@ -36,12 +33,7 @@ public class Gathering : MonoBehaviour {
 
                 if( wasObtained ){
                     inventory.AddItem( harvestableItem.item );
-
-                    foreach (ContactPoint2D hit in other.contacts){
-                        hitPosition.x = hit.point.x - 0.01f * hit.normal.x;
-                        hitPosition.y = hit.point.y - 0.01f * hit.normal.y;
-                        tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
-                    }
+                    other.gameObject.SetActive(false);
                 }
 
                 actualCooldown = harvestCooldown;
