@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,8 +13,8 @@ MonoBehaviour:
   m_Name: HarvestableTiles
   m_EditorClassIdentifier: 
   m_Prefabs:
-  - {fileID: 1618467817627506, guid: ed911af6c193f4ed8ac5a35cfe6ee8d0, type: 2}
-  - {fileID: 1712412215574730, guid: 8a750a4c4764c47c2813f2676640b7c7, type: 2}
-  m_PerlinScale: 0.253
+  - {fileID: 1618467817627506, guid: ed911af6c193f4ed8ac5a35cfe6ee8d0, type: 3}
+  - {fileID: 1712412215574730, guid: 8a750a4c4764c47c2813f2676640b7c7, type: 3}
+  m_PerlinScale: 0.25
   m_Z: 0
   m_selectedPrefabIndex: 0
